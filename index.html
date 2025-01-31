@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="asset/icon.png" type="image/x-icon">
+    <title>GanzoMall</title>
+</head>
+<body>
+    
+        <!-- PROMOTION -->
+        <div class="bg-indigo-600 px-4 py-3 text-white">
+            <p class="text-center text-sm font-medium">
+                PROMO HINGGA 60%
+                <a href="error.html" class="inline-block underline">Berlaku untuk hari ini saja!</a>
+            </p>
+        </div>
+    <!-- END PROMOTION -->
+
+
+    <!-- NAVBAR -->
+    <header class="bg-white py-8">
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+            <div class="flex-1 md:flex md:items-center md:gap-12">
+            <a class="block text-teal-600" href="index.html">
+                <span class="sr-only">Home</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512" version="1.1"><path d="M 366.500 74.590 C 341.200 80.858, 298.225 91.432, 271 98.088 C 243.775 104.745, 214.993 111.835, 207.040 113.845 L 192.579 117.500 189.767 124.894 C 188.221 128.961, 187.121 132.454, 187.323 132.656 C 187.525 132.859, 189.673 132.157, 192.095 131.098 C 194.518 130.038, 216.750 123.917, 241.500 117.495 C 266.250 111.072, 312.272 99.136, 343.772 90.969 C 375.271 82.803, 401.934 75.838, 403.022 75.493 C 404.974 74.874, 405 75.495, 405 122.393 L 405 169.921 394.347 187.210 C 388.488 196.720, 380.818 209.157, 377.303 214.848 C 373.788 220.539, 371.306 225.039, 371.787 224.848 C 372.268 224.657, 382.410 213.700, 394.324 200.500 L 415.986 176.500 415.993 119.750 C 416 66.330, 415.897 63.006, 414.250 63.096 C 413.288 63.149, 391.800 68.321, 366.500 74.590 M 348.730 101.899 C 326.307 107.256, 307.579 112.058, 307.112 112.570 C 304.868 115.031, 279.871 156.204, 280.337 156.671 C 280.632 156.965, 297.824 153.082, 318.543 148.043 C 339.261 143.003, 356.388 139.055, 356.603 139.270 C 356.818 139.484, 321.678 197.449, 278.515 268.080 C 235.352 338.711, 200.368 396.613, 200.773 396.752 C 201.179 396.890, 244.708 385.865, 297.505 372.252 L 393.500 347.500 393.761 304.250 C 393.904 280.462, 393.679 261.012, 393.261 261.026 C 392.842 261.040, 383.725 272.913, 373 287.409 L 353.500 313.767 318.095 323.395 C 298.622 328.690, 282.493 332.827, 282.254 332.587 C 282.014 332.347, 285.965 325.705, 291.034 317.826 C 296.103 309.947, 320.975 271.372, 346.306 232.104 C 383.815 173.957, 392.502 159.853, 393.121 156.104 C 393.539 153.572, 393.908 138.113, 393.940 121.750 L 394 92 391.750 92.079 C 390.512 92.122, 371.154 96.541, 348.730 101.899 M 202 140.041 C 156.625 151.535, 119.388 160.953, 119.250 160.970 C 119.112 160.986, 119.020 186.087, 119.045 216.750 L 119.090 272.500 123.511 267.566 C 126.113 264.662, 133.190 259.286, 140.716 254.496 L 153.500 246.360 153.766 219.223 L 154.032 192.085 157.766 191.043 C 159.820 190.469, 183.837 184.076, 211.139 176.835 L 260.778 163.670 270.372 146.501 C 275.649 137.057, 281.549 127.259, 283.483 124.726 C 287.330 119.687, 287.620 118.965, 285.750 119.071 C 285.063 119.110, 247.375 128.547, 202 140.041 M 133.254 132.830 L 96.007 142.500 96.004 187.087 C 96.002 211.610, 95.702 245.922, 95.338 263.337 C 94.906 284.034, 95.020 295, 95.668 295 C 96.213 295, 99.367 292.550, 102.676 289.556 L 108.692 284.111 108.210 217.806 L 107.729 151.500 137.614 144.596 C 154.051 140.798, 168.034 137.498, 168.686 137.263 C 169.715 136.892, 174 126.040, 174 123.806 C 174 122.365, 171 123.030, 133.254 132.830 M 254 199.515 C 227.875 206.301, 200.088 213.523, 192.250 215.564 L 178 219.275 178 240.205 C 178 259.675, 178.122 261.097, 179.750 260.600 C 189.084 257.744, 218.334 250.001, 218.637 250.304 C 218.853 250.520, 217.914 252.691, 216.551 255.130 C 212.034 263.211, 210.630 271.753, 210.738 290.500 C 210.791 299.850, 211.221 309.522, 211.694 311.993 L 212.553 316.485 217.145 309.993 C 238.995 279.099, 301.192 189.662, 301.643 188.489 C 301.957 187.670, 302.053 187.040, 301.857 187.089 C 301.661 187.138, 280.125 192.730, 254 199.515 M 407.002 208.250 C 402.367 213.887, 394.476 223.450, 389.466 229.500 C 378.995 242.144, 329.235 302.794, 327.594 304.914 C 326.414 306.438, 329.264 306.209, 339.923 303.923 L 344.799 302.877 374.650 264.977 L 404.500 227.076 404.757 291.697 C 404.899 327.239, 404.843 356.490, 404.634 356.700 C 404.424 356.909, 381.358 362.934, 353.376 370.088 C 325.394 377.241, 286.750 387.122, 267.500 392.046 C 248.250 396.969, 204.600 408.121, 170.500 416.827 L 108.500 432.657 108 400.078 C 107.725 382.160, 107.144 367.596, 106.710 367.713 C 106.275 367.831, 103.688 370.369, 100.960 373.354 L 96 378.780 96 413.890 C 96 433.201, 96.341 449, 96.757 449 C 97.495 449, 125.269 441.779, 264 405.520 C 387.164 373.329, 396.431 370.902, 406.250 368.278 L 416 365.672 416 281.836 C 416 235.726, 415.871 198, 415.714 198 C 415.556 198, 411.636 202.613, 407.002 208.250 M 135.267 301.333 L 119.035 307.500 119.017 321.750 C 119.008 329.587, 119.257 336, 119.571 336 C 119.885 336, 123.279 333.188, 127.113 329.750 C 130.947 326.313, 134.470 323.365, 134.942 323.200 C 135.414 323.035, 135.958 325.221, 136.150 328.059 L 136.500 333.217 127.750 343.859 L 119.001 354.500 119 386.148 L 119 417.796 126.750 415.814 C 154.802 408.643, 183.371 400.964, 183.889 400.457 C 186.358 398.039, 213.406 352.438, 212.505 352.211 C 211.875 352.052, 198.985 355.090, 183.862 358.961 C 168.739 362.833, 156.058 366, 155.683 366 C 155.307 366, 155 360.223, 155 353.162 C 155 326.263, 153.703 294.998, 152.590 295.083 C 151.991 295.129, 144.195 297.941, 135.267 301.333 M 100.943 315.710 L 95.386 321.500 95.943 342 L 96.500 362.500 102.250 355.303 L 108 348.107 107.926 333.303 C 107.885 325.162, 107.548 316.570, 107.176 314.210 L 106.500 309.921 100.943 315.710" stroke="none" fill="#060504" fill-rule="evenodd"/><path d="M 0.464 1.246 C 0.202 1.936, 0.103 117.025, 0.244 257 L 0.500 511.500 255.395 511.752 C 442.984 511.937, 510.648 511.707, 511.645 510.879 C 512.778 509.939, 513 468.076, 513 254.885 L 513 0.015 256.970 0.004 C 52.645 -0.005, 0.844 0.246, 0.464 1.246 M 0.492 256 C 0.492 396.525, 0.608 454.012, 0.750 383.750 C 0.892 313.487, 0.892 198.512, 0.750 128.250 C 0.608 57.987, 0.492 115.475, 0.492 256 M 366.500 74.590 C 341.200 80.858, 298.225 91.432, 271 98.088 C 243.775 104.745, 214.993 111.835, 207.040 113.845 L 192.579 117.500 189.767 124.894 C 188.221 128.961, 187.121 132.454, 187.323 132.656 C 187.525 132.859, 189.673 132.157, 192.095 131.098 C 194.518 130.038, 216.750 123.917, 241.500 117.495 C 266.250 111.072, 312.272 99.136, 343.772 90.969 C 375.271 82.803, 401.934 75.838, 403.022 75.493 C 404.974 74.874, 405 75.495, 405 122.393 L 405 169.921 394.347 187.210 C 388.488 196.720, 380.818 209.157, 377.303 214.848 C 373.788 220.539, 371.306 225.039, 371.787 224.848 C 372.268 224.657, 382.410 213.700, 394.324 200.500 L 415.986 176.500 415.993 119.750 C 416 66.330, 415.897 63.006, 414.250 63.096 C 413.288 63.149, 391.800 68.321, 366.500 74.590 M 348.730 101.899 C 326.307 107.256, 307.579 112.058, 307.112 112.570 C 304.868 115.031, 279.871 156.204, 280.337 156.671 C 280.632 156.965, 297.824 153.082, 318.543 148.043 C 339.261 143.003, 356.388 139.055, 356.603 139.270 C 356.818 139.484, 321.678 197.449, 278.515 268.080 C 235.352 338.711, 200.368 396.613, 200.773 396.752 C 201.179 396.890, 244.708 385.865, 297.505 372.252 L 393.500 347.500 393.761 304.250 C 393.904 280.462, 393.679 261.012, 393.261 261.026 C 392.842 261.040, 383.725 272.913, 373 287.409 L 353.500 313.767 318.095 323.395 C 298.622 328.690, 282.493 332.827, 282.254 332.587 C 282.014 332.347, 285.965 325.705, 291.034 317.826 C 296.103 309.947, 320.975 271.372, 346.306 232.104 C 383.815 173.957, 392.502 159.853, 393.121 156.104 C 393.539 153.572, 393.908 138.113, 393.940 121.750 L 394 92 391.750 92.079 C 390.512 92.122, 371.154 96.541, 348.730 101.899 M 202 140.041 C 156.625 151.535, 119.388 160.953, 119.250 160.970 C 119.112 160.986, 119.020 186.087, 119.045 216.750 L 119.090 272.500 123.511 267.566 C 126.113 264.662, 133.190 259.286, 140.716 254.496 L 153.500 246.360 153.766 219.223 L 154.032 192.085 157.766 191.043 C 159.820 190.469, 183.837 184.076, 211.139 176.835 L 260.778 163.670 270.372 146.501 C 275.649 137.057, 281.549 127.259, 283.483 124.726 C 287.330 119.687, 287.620 118.965, 285.750 119.071 C 285.063 119.110, 247.375 128.547, 202 140.041 M 133.254 132.830 L 96.007 142.500 96.004 187.087 C 96.002 211.610, 95.702 245.922, 95.338 263.337 C 94.906 284.034, 95.020 295, 95.668 295 C 96.213 295, 99.367 292.550, 102.676 289.556 L 108.692 284.111 108.210 217.806 L 107.729 151.500 137.614 144.596 C 154.051 140.798, 168.034 137.498, 168.686 137.263 C 169.715 136.892, 174 126.040, 174 123.806 C 174 122.365, 171 123.030, 133.254 132.830 M 254 199.515 C 227.875 206.301, 200.088 213.523, 192.250 215.564 L 178 219.275 178 240.205 C 178 259.675, 178.122 261.097, 179.750 260.600 C 189.084 257.744, 218.334 250.001, 218.637 250.304 C 218.853 250.520, 217.914 252.691, 216.551 255.130 C 212.034 263.211, 210.630 271.753, 210.738 290.500 C 210.791 299.850, 211.221 309.522, 211.694 311.993 L 212.553 316.485 217.145 309.993 C 238.995 279.099, 301.192 189.662, 301.643 188.489 C 301.957 187.670, 302.053 187.040, 301.857 187.089 C 301.661 187.138, 280.125 192.730, 254 199.515 M 407.002 208.250 C 402.367 213.887, 394.476 223.450, 389.466 229.500 C 378.995 242.144, 329.235 302.794, 327.594 304.914 C 326.414 306.438, 329.264 306.209, 339.923 303.923 L 344.799 302.877 374.650 264.977 L 404.500 227.076 404.757 291.697 C 404.899 327.239, 404.843 356.490, 404.634 356.700 C 404.424 356.909, 381.358 362.934, 353.376 370.088 C 325.394 377.241, 286.750 387.122, 267.500 392.046 C 248.250 396.969, 204.600 408.121, 170.500 416.827 L 108.500 432.657 108 400.078 C 107.725 382.160, 107.144 367.596, 106.710 367.713 C 106.275 367.831, 103.688 370.369, 100.960 373.354 L 96 378.780 96 413.890 C 96 433.201, 96.341 449, 96.757 449 C 97.495 449, 125.269 441.779, 264 405.520 C 387.164 373.329, 396.431 370.902, 406.250 368.278 L 416 365.672 416 281.836 C 416 235.726, 415.871 198, 415.714 198 C 415.556 198, 411.636 202.613, 407.002 208.250 M 135.267 301.333 L 119.035 307.500 119.017 321.750 C 119.008 329.587, 119.257 336, 119.571 336 C 119.885 336, 123.279 333.188, 127.113 329.750 C 130.947 326.313, 134.470 323.365, 134.942 323.200 C 135.414 323.035, 135.958 325.221, 136.150 328.059 L 136.500 333.217 127.750 343.859 L 119.001 354.500 119 386.148 L 119 417.796 126.750 415.814 C 154.802 408.643, 183.371 400.964, 183.889 400.457 C 186.358 398.039, 213.406 352.438, 212.505 352.211 C 211.875 352.052, 198.985 355.090, 183.862 358.961 C 168.739 362.833, 156.058 366, 155.683 366 C 155.307 366, 155 360.223, 155 353.162 C 155 326.263, 153.703 294.998, 152.590 295.083 C 151.991 295.129, 144.195 297.941, 135.267 301.333 M 100.943 315.710 L 95.386 321.500 95.943 342 L 96.500 362.500 102.250 355.303 L 108 348.107 107.926 333.303 C 107.885 325.162, 107.548 316.570, 107.176 314.210 L 106.500 309.921 100.943 315.710" stroke="none" fill="#f2c21b" fill-rule="evenodd"/></svg>
+            </a>
+            </div>
+    
+            <div class="md:flex md:items-center md:gap-12">
+            <nav aria-label="Global" class="hidden md:block">
+                <ul class="flex items-center gap-6 text-sm">
+                <li>
+                    <a class="text-gray-500 transition hover:text-gray-500/75" href="error.html"> About </a>
+                </li>
+    
+                <li>
+                    <a class="text-gray-500 transition hover:text-gray-500/75" href="error.html"> Careers </a>
+                </li>
+    
+                <li>
+                    <a class="text-gray-500 transition hover:text-gray-500/75" href="error.html"> History </a>
+                </li>
+    
+                <li>
+                    <a class="text-gray-500 transition hover:text-gray-500/75" href="error.html"> Services </a>
+                </li>
+    
+                <li>
+                    <a class="text-gray-500 transition hover:text-gray-500/75" href="error.html"> Projects </a>
+                </li>
+    
+                <li>
+                    <a class="text-gray-500 transition hover:text-gray-500/75" href="error.html"> Blog </a>
+                </li>
+                </ul>
+            </nav>
+    
+            <div class="flex items-center gap-4">
+    
+                <div class="block md:hidden">
+                <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    
+    <header class="bg-white">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+        <div>
+            <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">GANZOMALL OFFICIAL STORE</h1>
+            
+            <p class="mt-1.5 text-sm text-gray-500">
+            Cari Laptop / Komputer Murah Dengan Kualitas Bintang 5? Anda Ada Di Tempat Yang Benar!
+            </p>
+        </div>
+        
+        <div class="flex items-center gap-4">
+            <button
+            class="inline-flex items-center justify-center gap-1.5 rounded border border-gray-200 bg-white px-5 py-3 text-gray-900 transition hover:text-indigo-700 focus:outline-none focus:ring"
+            type="button" onclick="window.location.href='carabelanja.html'"
+            >
+            <span class="text-sm font-medium"> Cara Belanja </span>
+            
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+                </svg>
+            </button>
+    
+            <button
+                class="inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                type="button" onclick="window.location.href='https://wa.me/6285701435074';"
+            >
+                Chat Admin
+            </button>
+            </div>
+        </div>
+        </div>
+    </header>
+    <!-- END NAVBAR -->
+
+
+    <!-- CALL TO ACTION -->
+        <section
+    class="relative bg-[url(asset/backgrond-call-to-action.jpg)] bg-cover bg-center bg-no-repeat"
+    >
+    <div
+    class="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"
+    ></div>
+
+    <div
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8"
+    >
+    <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+        <h1 class="text-3xl font-extrabold text-white sm:text-5xl">
+        Ayo Cari Laptop
+
+        <strong class="block font-extrabold text-indigo-500"> Terbaik Untukmu. </strong>
+        </h1>
+
+        <p class="mt-4 max-w-lg text-white sm:text-xl/relaxed">
+        Cari laptop sesuai budget dan kebutuhan hanya disini!
+        </p>
+
+        <div class="mt-8 flex flex-wrap gap-4 text-center">
+        <a
+            href="#asus"
+            class="block w-full rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+        >
+            Get Started
+        </a>
+
+        <a
+            href="error.html"
+            class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-indigo-600 shadow hover:text-indigo-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+        >
+            Learn More
+        </a>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!-- END CALL TO ACTION -->
+
+
+        <!-- PRODUCT LIST - ASUS -->
+        <div class="flex justify-center py-8" id="asus">
+        <img src="asset/brand logo/asus.png" alt="Logo ASUS" class="h-20">
+    </div>
+
+    <div class="container grid grid-cols-2 gap-4 md:grid-cols-4 max-w-8xl mx-auto py-8">
+
+        <!-- Product Card 1 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://images.tokopedia.net/img/cache/700/OJWluG/2024/1/4/81525f00-ffc2-47ff-829a-b3682716312f.jpg"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">ASUS VIVOBOOK 14</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://images.tokopedia.net/img/cache/700/OJWluG/2022/10/10/255bcfb3-7f0d-43dd-aa7e-a0cc8d941c55.jpg"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">ASUS VIVOBOOK GO 14 FLIP</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/3/18/1d53bf90-41d2-47e1-9f09-381b5c9ae1fa.jpg"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">ASUS ZEN UX3405MA-OLEDS511</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://id.store.asus.com/media/catalog/product/z/e/zenbook_s_14_ux5406sa_product_photo_3i_zumaia_gray_04_1.jpg?width=439&height=439&store=id_ID&image-type=image"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">ASUS Zenbook S 14 (UX5406)</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOMBOL -->
+    <div class="container gap-4 max-w-[200px] mx-auto py-1">
+        <!-- Base -->
+        <a
+            class="group flex items-center justify-between gap-4 rounded-lg border border-indigo-600 bg-indigo-600 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
+            href="error.html"
+        >
+            <span class="font-medium text-white transition-colors group-hover:text-indigo-600 group-active:text-indigo-500">
+                Find out more
+            </span>
+            <span class="shrink-0 rounded-full border border-current bg-white p-2 text-indigo-600 group-active:text-indigo-500">
+                <svg class="size-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </span>
+        </a>
+    </div>
+
+    <!-- END PRODUCT LIST -->
+
+
+    <!-- pembagi -->
+        <span class="relative flex justify-center py-8">
+            <div
+            class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+            ></div>
+        
+            <span class="relative z-10 bg-white px-6">Brand Selanjutnya</span>
+        </span>
+    <!-- end pembagi -->
+    
+
+    <!-- PRODUCT LIST - LENOVO -->
+    <div class="flex justify-center py-8">
+        <img src="asset/brand logo/lenovo.png" alt="Logo LENOVO" class="h-12">
+    </div>
+    
+    <div class="container grid grid-cols-2 gap-4 md:grid-cols-4 max-w-8xl mx-auto py-8">
+    
+        <!-- Product Card 1 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/99/MTA-143188722/lenovo_lenovo_ideapad_slim_3_07id_08id_notebook_-ryzen_7_7730u-8gb-512gb_ssd-14-fhd-win_11_home-ohs_2021-_full01_p3j3whuq.jpg"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">LENOVO IP 3-07ID (C15)</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Product Card 2 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://metrokomputer.id/wp-content/uploads/2024/09/3-2.jpg"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">LENOVO IP 3-CXID</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Product Card 3 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/92/MTA-178100072/lenovo_lenovo_ideapad_5-9pid_i7_13620h_16gb_512_w11_14-wuxga_oled_full01_rxpuzlrw.jpg"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">LENOVO IP 5-9PID</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Product Card 4 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">Robot Toy</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- TOMBOL -->
+    <div class="container gap-4 max-w-[200px] mx-auto py-1">
+        <!-- Base -->
+        <a
+            class="group flex items-center justify-between gap-4 rounded-lg border border-indigo-600 bg-indigo-600 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
+            href="error.html"
+        >
+            <span class="font-medium text-white transition-colors group-hover:text-indigo-600 group-active:text-indigo-500">
+                Find out more
+            </span>
+            <span class="shrink-0 rounded-full border border-current bg-white p-2 text-indigo-600 group-active:text-indigo-500">
+                <svg class="size-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </span>
+        </a>
+    </div>
+    <!-- END PRODUCT LIST -->
+
+        <!-- pembagi -->
+        <span class="relative flex justify-center py-8">
+            <div
+            class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+            ></div>
+        
+            <span class="relative z-10 bg-white px-6">Brand Selanjutnya</span>
+        </span>
+    <!-- end pembagi -->
+
+
+    <!-- PRODUCT LIST - Advan -->
+    <div class="flex justify-center py-8">
+        <img src="asset/brand logo/advan.png" alt="Logo ADVAN" class="h-20">
+    </div>
+    
+    <div class="container grid grid-cols-2 gap-4 md:grid-cols-4 max-w-8xl mx-auto py-8">
+    
+        <!-- Product Card 1 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://els.id/wp-content/uploads/2024/10/Advan-360-Stylush-Pro-10.png"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">ADVAN 360 STYLUS PRO</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Product Card 2 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://i0.wp.com/tripio.co.id/wp-content/uploads/2024/11/Advan-AI-Gen.png?fit=700%2C700&ssl=1"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">ADVAN AI GEN ULTRA</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Product Card 3 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://els.id/wp-content/uploads/2023/10/Advan-Work-Plus-5.png"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">ADVAN WORKPLUS I5</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    
+        <!-- Product Card 4 -->
+        <div class="group relative block overflow-hidden">
+            <img
+                src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+                alt=""
+                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+            />
+            <div class="relative border border-gray-100 bg-white p-6">
+                <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                <h3 class="mt-4 text-lg font-medium text-gray-900">Robot Toy</h3>
+                <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                <form class="mt-4">
+                    <button
+                        class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                    >
+                        Beli Sekarang
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- TOMBOL -->
+    <div class="container gap-4 max-w-[200px] mx-auto py-1">
+        <!-- Base -->
+        <a
+            class="group flex items-center justify-between gap-4 rounded-lg border border-indigo-600 bg-indigo-600 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
+            href="error.html"
+        >
+            <span class="font-medium text-white transition-colors group-hover:text-indigo-600 group-active:text-indigo-500">
+                Find out more
+            </span>
+            <span class="shrink-0 rounded-full border border-current bg-white p-2 text-indigo-600 group-active:text-indigo-500">
+                <svg class="size-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </span>
+        </a>
+    </div>
+    <!-- END PRODUCT LIST -->
+
+            <!-- pembagi -->
+            <span class="relative flex justify-center py-8">
+                <div
+                class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+                ></div>
+            
+                <span class="relative z-10 bg-white px-6">Brand Selanjutnya</span>
+            </span>
+        <!-- end pembagi -->
+
+
+        <!-- PRODUCT LIST - Axioo -->
+        <div class="flex justify-center py-8">
+            <img src="asset/brand logo/axioo.png" alt="Logo Axioo" class="h-13">
+        </div>
+        
+        <div class="container grid grid-cols-2 gap-4 md:grid-cols-4 max-w-8xl mx-auto py-8">
+        
+            <!-- Product Card 1 -->
+            <div class="group relative block overflow-hidden">
+                <img
+                    src="https://i0.wp.com/tripio.co.id/wp-content/uploads/2024/11/AXIOO-MYBOOK-HYPE-1-4GB.jpg?fit=700%2C700&ssl=1"
+                    alt=""
+                    class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                />
+                <div class="relative border border-gray-100 bg-white p-6">
+                    <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                    <h3 class="mt-4 text-lg font-medium text-gray-900">AXIOO MYBOOK HYPE 1</h3>
+                    <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                    <form class="mt-4">
+                        <button
+                            class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                        >
+                            Beli Sekarang
+                        </button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Product Card 2 -->
+            <div class="group relative block overflow-hidden">
+                <img
+                    src="https://e-katalog.lkpp.go.id/katalog/produk/download/gambar/979635488?file_name=12936746631215.jpeg&v=3&file_sub_location=produk_gambar%2F2024%2F10%2F23"
+                    alt=""
+                    class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                />
+                <div class="relative border border-gray-100 bg-white p-6">
+                    <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                    <h3 class="mt-4 text-lg font-medium text-gray-900">AXIOO MYBOOK HYPE 5 G12</h3>
+                    <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                    <form class="mt-4">
+                        <button
+                            class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                        >
+                            Beli Sekarang
+                        </button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Product Card 3 -->
+            <div class="group relative block overflow-hidden">
+                <img
+                    src="https://s3.ap-southeast-1.amazonaws.com/stream.orbit.co.id/content/uploads/2024/12/02131228/52c25582-bfff-41c3-8bf9-ffbbe174c8d6.jpg"
+                    alt=""
+                    class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                />
+                <div class="relative border border-gray-100 bg-white p-6">
+                    <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                    <h3 class="mt-4 text-lg font-medium text-gray-900">AXIOO MYBOOK HYPE JKT48</h3>
+                    <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                    <form class="mt-4">
+                        <button
+                            class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                        >
+                            Beli Sekarang
+                        </button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Product Card 4 -->
+            <div class="group relative block overflow-hidden">
+                <img
+                    src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+                    alt=""
+                    class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                />
+                <div class="relative border border-gray-100 bg-white p-6">
+                    <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+                    <h3 class="mt-4 text-lg font-medium text-gray-900">Robot Toy</h3>
+                    <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+                    <form class="mt-4">
+                        <button
+                            class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                        >
+                            Beli Sekarang
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- TOMBOL -->
+        <div class="container gap-4 max-w-[200px] mx-auto py-1">
+            <!-- Base -->
+            <a
+                class="group flex items-center justify-between gap-4 rounded-lg border border-indigo-600 bg-indigo-600 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
+                href="error.html"
+            >
+                <span class="font-medium text-white transition-colors group-hover:text-indigo-600 group-active:text-indigo-500">
+                    Find out more
+                </span>
+                <span class="shrink-0 rounded-full border border-current bg-white p-2 text-indigo-600 group-active:text-indigo-500">
+                    <svg class="size-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </span>
+            </a>
+        </div>
+    <!-- END PRODUCT LIST -->
+
+
+    <!-- pembagi -->
+    <span class="relative flex justify-center py-8">
+        <div
+        class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+        ></div>
+    
+        <span class="relative z-10 bg-white px-6">Brand Selanjutnya</span>
+    </span>
+<!-- end pembagi -->
+
+
+<!-- PRODUCT LIST - MSI -->
+<div class="flex justify-center py-8">
+    <img src="asset/brand logo/msi.png" alt="Logo MSI" class="h-20">
+</div>
+
+<div class="container grid grid-cols-2 gap-4 md:grid-cols-4 max-w-8xl mx-auto py-8">
+
+    <!-- Product Card 1 -->
+    <div class="group relative block overflow-hidden">
+        <img
+            src="https://api.mdp.co.id/upload/pictures/product/LP01336.jpg"
+            alt=""
+            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+        />
+        <div class="relative border border-gray-100 bg-white p-6">
+            <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">MSI CYBORG 15-A13VEK.844</h3>
+            <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+            <form class="mt-4">
+                <button
+                    class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                >
+                    Beli Sekarang
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="group relative block overflow-hidden">
+        <img
+            src="https://images.tokopedia.net/img/cache/700/VqbcmM/2024/7/25/05d1f073-1c6b-42eb-b444-6aae74a94724.jpg"
+            alt=""
+            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+        />
+        <div class="relative border border-gray-100 bg-white p-6">
+            <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">MSI MODERN 14-C12MO.1058</h3>
+            <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+            <form class="mt-4">
+                <button
+                    class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                >
+                    Beli Sekarang
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="group relative block overflow-hidden">
+        <img
+            src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/110/MTA-177756815/msi_msi_thin_15_b13ucx_2410_laptop_gaming_-core_i5_13420h-8gb-512gb_ssd-rtx2050_4gb-15-6--win_11_home-_full01_bzp5i793.jpg"
+            alt=""
+            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+        />
+        <div class="relative border border-gray-100 bg-white p-6">
+            <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">MSI THIN 15-B13UCX.2410</h3>
+            <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+            <form class="mt-4">
+                <button
+                    class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                >
+                    Beli Sekarang
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Product Card 4 -->
+    <div class="group relative block overflow-hidden">
+        <img
+            src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
+            alt=""
+            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+        />
+        <div class="relative border border-gray-100 bg-white p-6">
+            <span class="whitespace-nowrap bg-indigo-400 px-3 py-1.5 text-xs font-medium text-white"> New </span>
+            <h3 class="mt-4 text-lg font-medium text-gray-900">Robot Toy</h3>
+            <p class="mt-1.5 text-sm text-gray-700">$14.99</p>
+            <form class="mt-4">
+                <button
+                    class="block w-full rounded bg-indigo-700 p-4 text-white font-medium transition hover:scale-105" onclick="window.location.href='error.html'"
+                >
+                    Beli Sekarang
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- TOMBOL -->
+<div class="container gap-4 max-w-[200px] mx-auto py-1">
+    <!-- Base -->
+    <a
+        class="group flex items-center justify-between gap-4 rounded-lg border border-indigo-600 bg-indigo-600 px-5 py-3 transition-colors hover:bg-transparent focus:outline-none focus:ring"
+        href="error.html"
+    >
+        <span class="font-medium text-white transition-colors group-hover:text-indigo-600 group-active:text-indigo-500">
+            Find out more
+        </span>
+        <span class="shrink-0 rounded-full border border-current bg-white p-2 text-indigo-600 group-active:text-indigo-500">
+            <svg class="size-5 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+        </span>
+    </a>
+</div>
+<!-- END PRODUCT LIST -->
+
+
+    <!-- pembagi -->
+    <span class="relative flex justify-center py-8">
+        <div
+        class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+        ></div>
+    
+        <span class="relative z-10 bg-white px-6">Brand Selanjutnya</span>
+    </span>
+<!-- end pembagi -->
+
+<!-- TESTIMONIAL -->
+<link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
+
+    <script type="module">
+    import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
+
+    const keenSliderActive = document.getElementById('keen-slider-active')
+    const keenSliderCount = document.getElementById('keen-slider-count')
+
+    const keenSlider = new KeenSlider(
+        '#keen-slider',
+        {
+        loop: true,
+        defaultAnimation: {
+            duration: 750,
+        },
+        slides: {
+            origin: 'center',
+            perView: 1,
+            spacing: 16,
+        },
+        breakpoints: {
+            '(min-width: 640px)': {
+            slides: {
+                origin: 'center',
+                perView: 1.5,
+                spacing: 16,
+            },
+            },
+            '(min-width: 768px)': {
+            slides: {
+                origin: 'center',
+                perView: 1.75,
+                spacing: 16,
+            },
+            },
+            '(min-width: 1024px)': {
+            slides: {
+                origin: 'center',
+                perView: 3,
+                spacing: 16,
+            },
+            },
+        },
+        created(slider) {
+            slider.slides[slider.track.details.rel].classList.remove('opacity-40')
+
+            keenSliderActive.innerText = slider.track.details.rel + 1
+            keenSliderCount.innerText = slider.slides.length
+        },
+        slideChanged(slider) {
+            slider.slides.forEach((slide) => slide.classList.add('opacity-40'))
+
+            slider.slides[slider.track.details.rel].classList.remove('opacity-40')
+
+            keenSliderActive.innerText = slider.track.details.rel + 1
+        },
+        },
+        []
+    )
+
+    const keenSliderPrevious = document.getElementById('keen-slider-previous')
+    const keenSliderNext = document.getElementById('keen-slider-next')
+
+    keenSliderPrevious.addEventListener('click', () => keenSlider.prev())
+    keenSliderNext.addEventListener('click', () => keenSlider.next())
+    </script>
+
+    <section class="bg-white">
+    <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <h2 class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+        Baca Review Testimonial Pelanggan Kami
+        </h2>
+
+        <div class="mt-8">
+        <div id="keen-slider" class="keen-slider">
+            <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                <img
+                    alt=""
+                    src="asset/testimonials/Shiroko.jpg"
+                    class="size-14 rounded-full object-cover"
+                />
+
+                <div>
+                    <div class="flex justify-center gap-0.5 text-green-500">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    </div>
+
+                    <p class="mt-0.5 text-lg font-medium text-gray-900">Shiroko</p>
+                </div>
+                </div>
+
+                <p class="mt-4 text-gray-700">
+                Pelayanannya cepat dan ramah, barangnya berkualitas, sangat puas belanja disini!
+                </p>
+            </blockquote>
+            </div>
+
+            <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                <img
+                    alt=""
+                    src="asset/testimonials/Arisu.jpg"
+                    class="size-14 rounded-full object-cover"
+                />
+
+                <div>
+                    <div class="flex justify-center gap-0.5 text-green-500">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    </div>
+
+                    <p class="mt-0.5 text-lg font-medium text-gray-900">Arisu</p>
+                </div>
+                </div>
+
+                <p class="mt-4 text-gray-700">
+                Harga terjangkau, produk original, dan pengiriman aman. Rekomendasi banget!
+                </p>
+            </blockquote>
+            </div>
+
+            <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                <img
+                    alt=""
+                    src="asset/testimonials/Hoshino.jpg"
+                    class="size-14 rounded-full object-cover"
+                />
+
+                <div>
+                    <div class="flex justify-center gap-0.5 text-green-500">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    </div>
+
+                    <p class="mt-0.5 text-lg font-medium text-gray-900">Hoshino</p>
+                </div>
+                </div>
+
+                <p class="mt-4 text-gray-700">
+                Laptop yang saya beli di sini sangat bagus, sesuai dengan kebutuhan. Mantap!
+                </p>
+            </blockquote>
+            </div>
+
+            <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                <img
+                    alt=""
+                    src="asset/testimonials/Yuuka.jpg"
+                    class="size-14 rounded-full object-cover"
+                />
+
+                <div>
+                    <div class="flex justify-center gap-0.5 text-green-500">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    </div>
+
+                    <p class="mt-0.5 text-lg font-medium text-gray-900">Yuuka</p>
+                </div>
+                </div>
+
+                <p class="mt-4 text-gray-700">
+                Stafnya membantu banget, jadi lebih mudah memilih komputer yang saya cari!
+                </p>
+            </blockquote>
+            </div>
+
+            <div class="keen-slider__slide opacity-40 transition-opacity duration-500">
+            <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                <img
+                    alt=""
+                    src="asset/testimonials/Momoi.jpg"
+                    class="size-14 rounded-full object-cover"
+                />
+
+                <div>
+                    <div class="flex justify-center gap-0.5 text-green-500">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="size-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                        />
+                    </svg>
+                    </div>
+
+                    <p class="mt-0.5 text-lg font-medium text-gray-900">Momoi</p>
+                </div>
+                </div>
+
+                <p class="mt-4 text-gray-700">
+                Belanja di sini selalu memuaskan, barang lengkap dan terpercaya!
+                </p>
+            </blockquote>
+            </div>
+        </div>
+
+        <div class="mt-6 flex items-center justify-center gap-4">
+            <button
+            aria-label="Previous slide"
+            id="keen-slider-previous"
+            class="text-gray-600 transition-colors hover:text-gray-900"
+            >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-5"
+            >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+            </button>
+
+            <p class="w-16 text-center text-sm text-gray-700">
+            <span id="keen-slider-active"></span>
+            /
+            <span id="keen-slider-count"></span>
+            </p>
+
+            <button
+            aria-label="Next slide"
+            id="keen-slider-next"
+            class="text-gray-600 transition-colors hover:text-gray-900"
+            >
+            <svg
+                class="size-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                d="M9 5l7 7-7 7"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                />
+            </svg>
+            </button>
+        </div>
+        </div>
+    </div>
+    </section>
+<!-- END TESTIMONIAL -->
+
+
+    <!-- QnA -->
+    <div class="space-y-4 max-w-4xl mx-auto px-auto">
+        <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+        <summary
+            class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+        >
+            <h2 class="font-medium">Apakah semua perangkat yang dijual disini berstatuskan resmi?</h2>
+    
+            <svg
+            class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </summary>
+    
+        <p class="mt-4 px-4 leading-relaxed text-gray-700">
+            Pake nanya! Ya jelas Resmi lah. Kami amanah bro, kami juga tau setiap perbuatan sekecil apapun tetap bakal ada pertanggungjawabannya!
+        </p>
+        </details>
+    
+        <details class="group [&_summary::-webkit-details-marker]:hidden">
+        <summary
+            class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
+        >
+            <h2 class="font-medium">Apakah ini penipuan?</h2>
+    
+            <svg
+            class="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </summary>
+    
+        <p class="mt-4 px-4 leading-relaxed text-gray-700">
+            Astagfirullah brother! Kami pedagang yang beragama Islam tidak akan melakukan tindakan keji tersebut. Percayalah kepada kami, insyaallah anda tidak akan kecewa!
+        </p>
+        </details>
+    </div>
+    <!-- END QnA -->
+
+    <!-- FOOTER -->
+    <footer class="bg-white lg:grid lg:grid-cols-5 py-8">
+        <div class="relative block h-32 lg:col-span-2 lg:h-full">
+        <img
+            src="asset/backgrond-call-to-action.jpg"
+            alt=""
+            class="absolute inset-0 h-full w-full object-cover"
+        />
+        </div>
+    
+        <div class="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
+            <div>
+            <p>
+                <span class="text-xs uppercase tracking-wide text-gray-500"> Hubungi Kami </span>
+    
+                <a href="error.html" class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+                sek lur eseh pembaruan
+                </a>
+            </p>
+    
+            <ul class="mt-8 space-y-1 text-sm text-gray-700">
+                <li>Senin - Sabtu: 09.00 - 21.00 WIB</li>
+                <li>Weekend: 09.00 - 17.00 WIB</li>
+            </ul>
+    
+            <ul class="mt-8 flex gap-6">
+                <li>
+                <a
+                    href="error.html"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-gray-700 transition hover:opacity-75"
+                >
+                    <span class="sr-only">Facebook</span>
+    
+                    <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        fill-rule="evenodd"
+                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                        clip-rule="evenodd"
+                    />
+                    </svg>
+                </a>
+                </li>
+    
+                <li>
+                <a
+                    href="error.html"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-gray-700 transition hover:opacity-75"
+                >
+                    <span class="sr-only">Instagram</span>
+    
+                    <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        fill-rule="evenodd"
+                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                        clip-rule="evenodd"
+                    />
+                    </svg>
+                </a>
+                </li>
+    
+                <li>
+                <a
+                    href="error.html"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-gray-700 transition hover:opacity-75"
+                >
+                    <span class="sr-only">Twitter</span>
+    
+                    <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                    />
+                    </svg>
+                </a>
+                </li>
+    
+                <li>
+                <a
+                    href="error.html"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-gray-700 transition hover:opacity-75"
+                >
+                    <span class="sr-only">GitHub</span>
+    
+                    <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        fill-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        clip-rule="evenodd"
+                    />
+                    </svg>
+                </a>
+                </li>
+    
+                <li>
+                <a
+                    href="error.html"
+                    rel="noreferrer"
+                    target="_blank"
+                    class="text-gray-700 transition hover:opacity-75"
+                >
+                    <span class="sr-only">Dribbble</span>
+    
+                    <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                        fill-rule="evenodd"
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                        clip-rule="evenodd"
+                    />
+                    </svg>
+                </a>
+                </li>
+            </ul>
+            </div>
+    
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div>
+                <p class="font-medium text-gray-900">Services</p>
+    
+                <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+    
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+    
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+    
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+    
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+                </ul>
+            </div>
+    
+            <div>
+                <p class="font-medium text-gray-900">Company</p>
+    
+                <ul class="mt-6 space-y-4 text-sm">
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+    
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+    
+                <li>
+                    <a href="error.html" class="text-gray-700 transition hover:opacity-75"> Coming Soon </a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    
+        <div class="mt-12 border-t border-gray-100 pt-12">
+            <div class="sm:flex sm:items-center sm:justify-between">
+            <ul class="flex flex-wrap gap-4 text-xs">
+                <li>
+                <a href="error.html" class="text-gray-500 transition hover:opacity-75"> Terms & Conditions </a>
+                </li>
+    
+                <li>
+                <a href="error.html" class="text-gray-500 transition hover:opacity-75"> Privacy Policy </a>
+                </li>
+    
+                <li>
+                <a href="error.html" class="text-gray-500 transition hover:opacity-75"> Cookies </a>
+                </li>
+            </ul>
+    
+            <p class="mt-8 text-xs text-gray-500 sm:mt-0">
+                &copy; 2025. GANZO STUDIO. All rights reserved.
+            </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+</body>
+    <script src="script.js"></script>
+</html>
